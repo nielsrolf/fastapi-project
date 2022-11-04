@@ -7,8 +7,6 @@ from pydantic import BaseModel
 
 from {{cookiecutter.repo_name}}.authentication import TokenPayload, get_current_user
 
-# from pypollsdk.model import run_model  # noqa: F401
-
 
 load_dotenv()
 
